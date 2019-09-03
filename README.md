@@ -19,12 +19,12 @@ sudo chmod +x /opt/check_nginx.sh
 ```
 
 **Fourth step** \
-create a new file for keepalived service: \
+create a new file for keepalived service: 
 ```
-/etc/keepalived/keepalived.conf \
-\
-restart keepalived service and nginx \
-\
+/etc/keepalived/keepalived.conf 
+
+restart keepalived service and nginx 
+
 ```
 
 # aws... keep calm and wait...
