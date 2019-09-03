@@ -6,7 +6,7 @@
 install 'install-with-keepalived.sh'
 
 **Second step:** \
-edit and add on the end: \
+edit and add on the end: 
 ```
 vim /etc/sysctl.conf 
 net.ipv4.ip_nonlocal_bind = 1
@@ -19,7 +19,7 @@ sudo chmod +x /opt/check_nginx.sh
 ```
 
 **Fourth step** \
-create a new file for keepalived service: 
+create a new file or copy from this repo, it's for keepalived service: 
 ```
 /etc/keepalived/keepalived.conf 
 
