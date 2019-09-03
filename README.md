@@ -8,12 +8,12 @@ install 'install-with-keepalived.sh'
 **Second step:** \
 edit and add on the end: \
 ```
-vim /etc/sysctl.conf \
+vim /etc/sysctl.conf 
 net.ipv4.ip_nonlocal_bind = 1
 ```
 
 **Third step:** \
-permission: \
+permission: 
 ```
 sudo chmod +x /opt/check_nginx.sh
 ```
